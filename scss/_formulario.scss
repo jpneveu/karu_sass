@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    background-color: beige;
+    border-radius: 3px;
+    padding: 10px;
+  }
+
+  elementosFormulario {
+   	flex: 1; 
+    	order: 1;
+   	margin-right: 15px; 
+  
+  input {
+    width: 100%;
+  }
+  input,button {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+
+ }
