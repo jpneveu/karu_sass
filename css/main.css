@@ -33,8 +33,22 @@ footer li a {
   text-decoration: none;
   color: #ffffff; }
 
-.form {
+form {
   display: flex;
   background-color: beige;
   border-radius: 3px;
-  padding: 11px; }
+  padding: 10px; }
+
+elementosFormulario {
+  flex: 1;
+  order: 1;
+  margin-right: 15px; }
+  elementosFormulario input {
+    width: 100%; }
+  elementosFormulario input, elementosFormulario button {
+    padding: 1rem;
+    margin-bottom: 1rem; }
+  elementosFormulario button {
+    background: gray;
+    color: white;
+    border: 0; }
