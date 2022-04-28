@@ -1,3 +1,16 @@
+.btn--instagram {
+  background-color: #F77737; }
+
+.btn--facebook {
+  background-color: #3a5795; }
+
+.btn--twitter {
+  background-color: #55acee; }
+
+.parrafo--resaltado {
+  /*Extend*/
+  background-color: #FFDC80; }
+
 * {
   margin: 0;
   padding: 0;
@@ -14,9 +27,15 @@ main {
     font-size: 2rem; }
   main h2 {
     font-size: 1.8rem; }
-  main p {
-    font-size: 1.2rem;
-    padding: 20px; }
+  main h2.amarillo {
+    font-size: 1.8rem;
+    padding: 15px;
+    /*Mixin*/
+    background-color: #FFDC80; }
+
+.parrafo, .parrafo--resaltado {
+  font-size: 1.2rem;
+  padding: 20px; }
 
 footer {
   background-color: #3CB371;
@@ -39,16 +58,20 @@ form {
   border-radius: 3px;
   padding: 10px; }
 
-elementosFormulario {
+.elementosFormulario {
   flex: 1;
   order: 1;
   margin-right: 15px; }
-  elementosFormulario input {
-    width: 100%; }
-  elementosFormulario input, elementosFormulario button {
-    padding: 1rem;
-    margin-bottom: 1rem; }
-  elementosFormulario button {
-    background: gray;
-    color: white;
-    border: 0; }
+
+.elementosFormulario input {
+  width: 100%; }
+
+.elementosFormulario input,
+.elementosFormulario button {
+  padding: 1rem;
+  margin-bottom: 1rem; }
+
+.elementosFormulario button {
+  background: gray;
+  color: white;
+  border: 0; }

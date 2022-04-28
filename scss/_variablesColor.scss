@@ -12,3 +12,12 @@ twitter:#55acee
 		background-color:$color;
 	}
 }
+
+.parrafo--resaltado{ /*Extend*/
+	@extend .parrafo;
+	background-color: #FFDC80;
+}
+
+@mixin color-subtitulo {/*Mixin*/
+	background-color: #FFDC80;
+  }
