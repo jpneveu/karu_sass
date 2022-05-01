@@ -3,12 +3,11 @@ footer{
     display: flex;
     justify-content:center;
     align-items: center;
-    padding:15px;
-   
 }
 footer li{
     list-style-type: none;
-    display: inline-block;  
+    display: inline-block;
+    padding: 10px;  
 }
 
 footer li a{

@@ -16,6 +16,7 @@ twitter:#55acee
 .parrafo--resaltado{ /*Extend*/
 	@extend .parrafo;
 	background-color: #FFDC80;
+	margin-top: 15px;
 }
 
 @mixin color-subtitulo {/*Mixin*/
