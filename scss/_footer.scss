@@ -1,5 +1,5 @@
 footer{
-    padding-top: 20px;
+    padding: 35px;
     background-color:$fondo-footer;
     display: flex;
     justify-content:center;
@@ -14,4 +14,9 @@ footer li{
 footer li a{
     text-decoration: none;
     color: #ffffff;
+    &:hover {
+        
+        color:yellow;
+    }
 }
+

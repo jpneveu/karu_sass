@@ -15,16 +15,24 @@ html{
 
 	h1{
    	 font-size: 2rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
     
 	}
 
 	h2{
     	font-size: 1.8rem;
-        padding-top: 35px;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
 	}
+
+    h5{
+    	font-size: 2.5rem;
+	}
+    
     h2.amarillo{
     	font-size: 1.5rem;
-        padding: 15px;
+        padding: 1rem;
         @include color-subtitulo;
 	}
 
